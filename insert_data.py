@@ -5,7 +5,7 @@ db  = mdb.connect('localhost', 'root', '', 'python')
 cur = db.cursor()
 
 try:
-    sql = ""
+    sql = "insert"
 except :
     print("Gagal insert data")
 
