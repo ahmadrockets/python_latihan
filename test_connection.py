@@ -1,8 +1,6 @@
 import MySQLdb
 import sys
 
-
-
 try:
     db = MySQLdb.connect('localhost', 'root', '', 'python')
     cursor = db.cursor()
